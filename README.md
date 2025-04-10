@@ -260,7 +260,7 @@ import seaborn as sns
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="your_password",
+    password="your_mysql_password",
     database="sales_db"
 )
 
